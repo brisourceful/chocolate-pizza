@@ -1,0 +1,65 @@
+html {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+
+.header {
+  height: 110px;
+  width: auto;
+  border: solid;
+  border-color: blue;
+  }
+
+  .logo-social {
+    height:80px;
+    width: auto;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    border-color: black;
+    border: solid;
+  }
+
+  .logo {
+    display: inline;
+    margin-top: 20px;
+  }
+
+.fork-logo {
+  height: 50px;
+  width: 47px;
+  margin-top: 10px;
+
+}
+
+h3 {
+  display: inline;
+  height: 70px;
+  width: 100px;
+  font-size: 40px;
+  font-family: 'Yellowtail', cursive;
+}
+
+.blog-title-section {
+  width: auto;
+  height: 110px;
+  border: solid;
+  border-color: red;
+}
+
+.choco-pizza-title {
+  height: 50px;
+  width: 200px;
+  margin-bottom: 0;
+  display: inline-block;
+  border-color: green;
+  border-style: solid;
+}
+
+h2 {
+  margin-bottom: 0;
+}
+
+.bottomline {
+
+}
