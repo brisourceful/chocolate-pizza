@@ -48,8 +48,8 @@ h3 {
 }
 
 .choco-pizza-title {
-  height: 50px;
-  width: 200px;
+  height: 70px;
+  width: 220px;
   margin-bottom: 0;
   display: inline-block;
   border-color: green;
@@ -57,9 +57,43 @@ h3 {
 }
 
 h2 {
-  margin-bottom: 0;
+  margin: 0;
+  font-size: 30px;
 }
 
 .bottomline {
+  height: 25px;
+  width: auto;
+  border-color: yellow;
+  border-style: solid;
 
+}
+
+.posted-time, h4 {
+  margin: 0;
+  display: inline;
+}
+
+.print-button {
+  margin: 0;
+  float:right;
+
+}
+
+.print-image {
+  height: 70%;
+  width: 70%;
+}
+
+#main-image {
+  margin: auto;
+  display: block;
+  width: 100%;
+}
+
+#recipe {
+  height: 299px;
+  width: auot;
+  border-color: pink;
+  background-image: url(lab-assets/list-bg.png);
 }
