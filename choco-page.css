@@ -78,11 +78,16 @@ h2 {
   margin: 0;
   float:right;
 
+
 }
 
 .print-image {
   height: 70%;
   width: 70%;
+}
+
+.Page-Break-Image {
+  width: 100%;
 }
 
 #main-image {
@@ -93,7 +98,26 @@ h2 {
 
 #recipe {
   height: 299px;
-  width: auot;
+  width: auto;
   border-color: pink;
   background-image: url(lab-assets/list-bg.png);
+}
+
+.recipe-list1 {
+  height: 99;
+  width: auto;
+  padding: 30px 60px;
+  display: inline-block;
+}
+
+.recipe-list2 {
+   height: 99;
+   width: auto;
+   padding: 30px 30px;
+   display: inline-block;
+}
+
+ul, li {
+  list-style-type: square;
+  font-family: 'Coming Soon', cursive;
 }
