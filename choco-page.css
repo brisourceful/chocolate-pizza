@@ -3,24 +3,33 @@ html {
   margin-right: 15%;
 }
 
+body {
+  margin: 0;
+}
 
 .header {
-  height: 110px;
+  height: 80px;
   width: auto;
-  border: solid;
-  border-color: blue;
-  }
+}
 
-  .logo-social {
-    height:80px;
+.logo-social {
+    height:50px;
     width: auto;
     margin-top: 25px;
     margin-bottom: 10px;
-    border-color: black;
-    border: solid;
   }
 
-  .logo {
+#social-buttons {
+  heigh: 100px;
+  width: 300px;
+  padding: 16px 14px;
+  text-align: right;
+  display: inline;
+  float: right;
+}
+
+
+.logo {
     display: inline;
     margin-top: 20px;
   }
@@ -43,30 +52,24 @@ h3 {
 .blog-title-section {
   width: auto;
   height: 110px;
-  border: solid;
-  border-color: red;
 }
 
 .choco-pizza-title {
   height: 70px;
   width: 220px;
-  margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0
   display: inline-block;
-  border-color: green;
-  border-style: solid;
 }
 
 h2 {
-  margin: 0;
+  margin-bottom: 0;
   font-size: 30px;
 }
 
 .bottomline {
   height: 25px;
   width: auto;
-  border-color: yellow;
-  border-style: solid;
-
 }
 
 .posted-time, h4 {
@@ -77,8 +80,6 @@ h2 {
 .print-button {
   margin: 0;
   float:right;
-
-
 }
 
 .print-image {
@@ -99,7 +100,6 @@ h2 {
 #recipe {
   height: 299px;
   width: auto;
-  border-color: pink;
   background-image: url(lab-assets/list-bg.png);
 }
 
